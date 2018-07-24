@@ -1,0 +1,12 @@
+{
+  "name": "rndm-render-preset-firedux-navigation",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "scripts": {},
+  "author": "RNDM",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "rndm-render-preset-firedux": "file:///Users/paul.napier/Desktop/dev/mine/rndm/_plugins/_presets/rndm-render-preset-firedux",
+    "rndm-render-plugin-react-navigation": "file:///Users/paul.napier/Desktop/dev/mine/rndm/_plugins/rndm-render-plugin-react-navigation"
+  }
+}
