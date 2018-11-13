@@ -8,7 +8,7 @@ import {
   createSwitchNavigator,
 } from 'react-navigation';
 import { connect } from 'react-redux';
-import { convertRoutesToComponents }  from 'rndm-render-plugin-react-navigation';
+import { convertRoutesToComponents }  from '@rndm/render-plugin-react-navigation';
 import createNavigator from '../utils/createNavigator';
 
 const navigators = {

@@ -1,6 +1,6 @@
 const fs = require('fs');
 const { range } = require('lodash');
-const { buildFilesForFolder } = require('rndm-utils');
+const { buildFilesForFolder } = require('@rndm/utils');
 const input = require('./files');
 
 const current = process.cwd();
@@ -8,7 +8,7 @@ const current = process.cwd();
 const init = (cmd = {}) => {
   const relativity = range(cmd.node ? 2 : 0).map(() => '..').join('/');
   const nodeModules = [current, relativity, 'node_modules'].join('/');
-  const reduxCLI = [nodeModules, 'rndm-render-plugin-redux', 'cli'].join('/');
+  const reduxCLI = [nodeModules, '@rndm/render-plugin-redux', 'cli'].join('/');
   const actions = require(reduxCLI);
   actions.init(cmd);
 
