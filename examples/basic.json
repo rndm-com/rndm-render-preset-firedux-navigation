@@ -1,0 +1,88 @@
+{
+  "type": "firedux-navigation.StackNavigator",
+  "props": {
+    "routes": {
+      "Screen": {
+        "type": "react-native.View",
+        "props": {
+          "style": {
+            "width": 100,
+            "height": 100,
+            "backgroundColor": "yellow"
+          },
+          "children": {
+            "type": "react-native.TouchableOpacity",
+            "props": {
+              "children": {
+                "type": "react-native.Text",
+                "props": {
+                  "children": "Test"
+                }
+              },
+              "middleware": [
+                {
+                  "middleware": "redux.connect",
+                  "args": [
+                    null,
+                    [
+                      {
+                        "prop": "onPress",
+                        "action": {
+                          "type": "Navigation/PUSH",
+                          "value": {
+                            "routeName": "Other"
+                          }
+                        }
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Other": {
+        "type": "react-native.View",
+        "props": {
+          "style": {
+            "width": 100,
+            "height": 100,
+            "backgroundColor": "orange"
+          },
+          "children": {
+            "type": "react-native.TouchableOpacity",
+            "props": {
+              "children": {
+                "type": "react-native.Text",
+                "props": {
+                  "children": "Test"
+                }
+              },
+              "middleware": [
+                {
+                  "middleware": "redux.connect",
+                  "args": [
+                    null,
+                    [
+                      {
+                        "prop": "onPress",
+                        "action": {
+                          "type": "Navigation/PUSH",
+                          "value": {
+                            "routeName": "Screen"
+                          }
+                        }
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "id": "root"
+  }
+}

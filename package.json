@@ -1,0 +1,24 @@
+{
+  "name": "@rndm/render-preset-firedux-navigation",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "scripts": {},
+  "author": "RNDM",
+  "license": "Apache-2.0",
+  "description": "RNDM Render Preset: Firedux Navigation. React Navigation using Firebase and Redux for RNDM Render",
+  "homepage": "https://github.com/rndm-com/rndm-render-preset-firedux-navigation#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rndm-com/rndm-render-preset-firedux-navigation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rndm-com/rndm-render-preset-firedux-navigation/issues"
+  },
+  "bin": {
+    "rndm-render-preset-firedux-navigation" : "cli/index.js"
+  },
+  "dependencies": {
+    "@rndm/render-preset-firedux": "^0.1.0",
+    "@rndm/render-plugin-react-navigation": "^0.1.0"
+  }
+}
