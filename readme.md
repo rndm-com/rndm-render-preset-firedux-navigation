@@ -1,17 +1,17 @@
-# RNDM Render Preset: Firedux Navigation
+# [RNDM](https://www.rndm.com) Render Preset: Firedux Navigation
 
 ## About
 
-This preset provides functionality for [RNDM Render package](https://github.com/rndm-com/rndm-render) for combined integrations of Firebase and Redux (Firedux!) as well as React Navigation.
+This preset provides functionality for [RNDM Render package](https://www.rndm.com/docs/rndm-render) for combined integrations of Firebase and Redux (Firedux!) as well as React Navigation.
 
 It includes the following packages:
 
-- [@rndm/render-preset-firedux](https://github.com/rndm-com/rndm-render-preset-firedux)
-- [@rndm/render-plugin-react-navigation](https://github.com/rndm-com/rndm-render-plugin-react-navigation)
+- [@rndm/render-preset-firedux](https://www.rndm.com/docs/rndm-render/preset/firedux)
+- [@rndm/render-plugin-react-navigation](https://www.rndm.com/docs/rndm-render/plugin-react-navigation)
 
 ## Installation
 
-If you have not already done so, then please ensure you have installed the [RNDM Render](https://github.com/rndm-com/rndm-render) package.
+If you have not already done so, then please ensure you have installed the [RNDM Render](https://www.rndm.com/docs/rndm-render) package.
 
 ### From NPM
 
@@ -235,5 +235,7 @@ const reducer = (state = {}, { type = '', ...action } = {}) => {
 
 export default reducer;
 ```
+
+Check out the [Playground](https://www.rndm.com/playground) page to see how these features work.
 
 These will then need to be included in your middleware array and reducers object.
